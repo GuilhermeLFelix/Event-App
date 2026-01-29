@@ -56,20 +56,20 @@ DATABASE_USER=username
 DATABASE_PWD=password
 ```
 
-spring.datasource.url=${DATABASE_URL}
-spring.datasource.username=${DATABASE_USER}
-spring.datasource.password=${DATABASE_PWD}
+- spring.datasource.url=${DATABASE_URL}
+- spring.datasource.username=${DATABASE_USER}
+- spring.datasource.password=${DATABASE_PWD}
 
 Running the API:
 
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-mvn spring-boot:run
+- git clone https://github.com/your-username/your-repository.git
+- cd your-repository
+- mvn spring-boot:run
 
 Requirements:
 
-PostgreSQL running
-Database created
+- PostgreSQL running
+- Database created
 
 License:
 MIT
